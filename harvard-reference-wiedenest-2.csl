@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
-<!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
-<!-- Bug: Wenn kein Autor vorhanden: o.A. - ohne Autor  -->
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title>Harvard Reference Wiedenest 2</title>
+    <title>Harvard – Wiedenest</title>
     <id>http://www.zotero.org/styles/harvard-reference-wiedenest-2</id>
     <link href="http://www.zotero.org/styles/harvard-reference-wiedenest-2" rel="self"/>
     <link href="http://libweb.anglia.ac.uk/referencing/harvard.htm" rel="documentation"/>
@@ -11,10 +10,13 @@
       <name>Julian Onions</name>
       <email>julian.onions@gmail.com</email>
     </author>
+    <author>
+      <name>Benjamin Pick</name>
+    </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style</summary>
-    <updated>2016-03-10T16:09:38+00:00</updated>
+    <updated>2016-12-02T14:09:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -24,7 +26,7 @@
     </names>
   </macro>
   <macro name="anon">
-    <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true"/>
+    <text value="o.A." />
   </macro>
   <macro name="author">
     <names variable="author" suffix=".">
@@ -32,6 +34,7 @@
       <label form="short" prefix=" " text-case="lowercase"/>
       <substitute>
         <names variable="editor"/>
+        <text macro="anon"/>
       </substitute>
     </names>
   </macro>
