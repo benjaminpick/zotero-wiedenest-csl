@@ -14,7 +14,7 @@ Nicht alle Regeln werden automatisch von Zotero übernommen!
 
 * Untertitel werden vom Titel mit einem : getrennt
 * Das Wort "Verlag" muss weggelassen werden
-* Bei Lexika dürfen keine Herausgeber angegeben werden
+* Bei Lexikons-Einträgen dürfen keine Herausgeber angegeben werden
 * Auflage muss entweder nur die Zahl sein (wenn möglich) oder der komplette Text ("2. und erw. Aufl.")
 
 
