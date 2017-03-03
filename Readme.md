@@ -6,6 +6,5 @@ Genauso wie bei installieren. Damit die neuen Regeln aber auch von dem Textprogr
 
 ## Beispiel-Zitationen (SOLL)
 
-(Stand März 2015)
-
+[[Beispiel Zitationen]]
 
