@@ -17,13 +17,13 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style</summary>
-    <updated>2017-03-03T13:07:09+00:00</updated>
+    <updated>2017-03-03T13:39:04+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
     <names variable="editor" delimiter=", ">
       <name and="symbol" initialize-with=". " delimiter=", "/>
-      <label form="short" prefix=", " text-case="lowercase"/>
+      <label form="symbol" text-case="capitalize-first" prefix=" (" suffix=")"/>
     </names>
   </macro>
   <macro name="anon">
@@ -34,7 +34,7 @@
       <name suffix="." and="symbol" delimiter-precedes-last="never" initialize-with="." name-as-sort-order="all"/>
       <label form="short" prefix=" " text-case="lowercase"/>
       <substitute>
-        <names variable="editor"/>
+        <text macro="editor"/>
         <text macro="anon"/>
       </substitute>
     </names>
@@ -149,7 +149,6 @@
         <else-if type="chapter paper-conference" match="any">
           <text macro="title" prefix=" " suffix="."/>
           <group prefix=" " delimiter=" ">
-            <text term="in" text-case="capitalize-first"/>
             <text macro="editor"/>
             <text variable="container-title" font-style="italic" suffix="."/>
             <text variable="collection-title" suffix="."/>
