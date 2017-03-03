@@ -1,0 +1,5 @@
+#/bin/bash
+
+pandoc beispiel-zitationen.odt -o beispiel-zitationen.html
+pandoc beispiel-zitationen.html -t markdown_github -o beispiel-zitationen.md
+rm beispiel-zitationen.html
