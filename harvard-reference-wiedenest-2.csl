@@ -16,7 +16,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style</summary>
-    <updated>2016-12-02T14:09:41+00:00</updated>
+    <updated>2017-03-03T11:39:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -26,7 +26,7 @@
     </names>
   </macro>
   <macro name="anon">
-    <text value="o.A." />
+    <text value="o.A."/>
   </macro>
   <macro name="author">
     <names variable="author" suffix=".">
@@ -98,8 +98,8 @@
     <choose>
       <if is-numeric="edition">
         <group delimiter=" ">
-          <number variable="edition" form="ordinal"/>
-          <text term="edition" form="short"/>
+          <number suffix="." variable="edition"/>
+          <text value="Aufl" suffix="."/>
         </group>
       </if>
       <else>
@@ -169,7 +169,14 @@
         </else-if>
         <else>
           <group suffix=".">
-            <text macro="title" prefix=" "/>
+            <choose>
+              <if match="any" variable="container-title">
+                <text macro="title" prefix=" "/>
+              </if>
+              <else>
+                <text macro="title" font-style="italic"/>
+              </else>
+            </choose>
             <text macro="editor" prefix=" "/>
           </group>
           <group prefix=" " suffix=".">
