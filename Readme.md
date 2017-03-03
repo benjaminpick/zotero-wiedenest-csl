@@ -4,7 +4,7 @@
 
 Genauso wie bei installieren. Damit die neuen Regeln aber auch von dem Textprogramm verwendet werden, musst du dort das Dokument erst auf einen anderen Zitationsstil, dann wieder auf `Havard Wiedenest` umstellen.
 
-## Beispiel-Zitationen (SOLL)
+## Zitationen (SOLL)
 
-[[Beispiel Zitationen]]
+[Beispiel Zitationen](beispiel-zitationen.md)
 
