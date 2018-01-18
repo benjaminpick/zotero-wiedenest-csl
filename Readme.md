@@ -1,8 +1,10 @@
-# Wie installiere ich diese Datei in Zotero?
+# Wie installiere ich die CSL-Datei in Zotero?
 
-Unter Einstellungen > Zitieren > Stile auf den Knopf "+" drücken.
+* Herunterladen unter "Clone or download" rechts oben
+* Dann die harvard-reference-wiedenest-2.csl aus der ZIP-Datei extrahieren
+* Unter Einstellungen > Zitieren > Stile auf den Knopf "+" drücken
 
-# Wie aktualisiere ich diese Datei?
+# Wie aktualisiere ich die CSL-Datei?
 
 Genauso wie bei installieren. Damit die neuen Regeln aber auch von dem Textprogramm verwendet werden, musst du dort das Dokument erst auf einen anderen Zitationsstil, dann wieder auf `Havard Wiedenest 2` umstellen.
 
