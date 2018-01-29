@@ -41,7 +41,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" suffix="." and="symbol" delimiter-precedes-last="never" initialize-with="." name-as-sort-order="all" />
+      <name form="short" and="symbol" delimiter-precedes-last="never" initialize-with="." name-as-sort-order="all" />
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
