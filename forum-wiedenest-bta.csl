@@ -17,9 +17,14 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Harvard author-date style</summary>
-    <updated>2018-03-08T19:19:43+00:00</updated>
+    <updated>2018-03-08T19:32:35+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/4.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 License</rights>
   </info>
+  <locale xml:lang="de-DE">
+    <terms>
+      <term name="editor" form="symbol">Hg.</term>
+    </terms>
+  </locale>
   <macro name="editor">
     <names variable="editor" delimiter=", ">
       <name suffix="." and="symbol" delimiter-precedes-last="never" initialize-with="." name-as-sort-order="all"/>
