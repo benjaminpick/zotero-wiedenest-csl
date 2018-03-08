@@ -1,7 +1,7 @@
 # Wie installiere ich die CSL-Datei in Zotero?
 
 * Herunterladen unter "Clone or download" rechts oben
-* Dann die harvard-reference-wiedenest-2.csl aus der ZIP-Datei extrahieren
+* Dann die forum-wiedenest-bta.csl aus der ZIP-Datei extrahieren
 * Unter Einstellungen > Zitieren > Stile auf den Knopf "+" drücken
 
 # Wie aktualisiere ich die CSL-Datei?
